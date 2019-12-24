@@ -1,0 +1,4 @@
+ID	Name	Age	IsMale	GPA
+1	Tom Ryan	22	True	3.1
+2	Jack Peterson	31	True	2.7
+3	Cindy LuWho	12	False	3.9
