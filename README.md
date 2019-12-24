@@ -15,4 +15,4 @@ You can use this program for any data set you like. The only specification is:
 String fileName = "Student";
 ```
 4. Run file
-5. Refresh your directory and view the outputted .class file
+5. Refresh your directory and view the outputted .java file
