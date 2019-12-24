@@ -12,7 +12,8 @@ public class Tester {
 
 	public static void main(String[] args) throws Exception {
 
-		String fileName = "Student";
+		String fileName = "student";
+		fileName = fileName.substring(0, 1).toUpperCase() + fileName.substring(1);
 		String firstLetter = fileName.substring(0, 1).toLowerCase();
 
 		fin = new Scanner(new File(fileName + ".txt"));
@@ -130,6 +131,7 @@ public class Tester {
 
 	private static String declareProperty(String data, String variable) {
 
+		variable = variable.substring(0, 1).toLowerCase() + variable.substring(1);
 		if (isInt(data))
 			prop = new Property(variable, "int");
 		else if (isLong(data))
