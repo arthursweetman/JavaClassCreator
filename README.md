@@ -10,7 +10,7 @@ You can use this program for any data set you like. The only specification is:
 ## Getting Started
 1. Clone repository
 2. Open `Tester.java` in your preferred IDE
-3. Edit the following text between quotes ("") so that it matches the name of the file you want to create a Class with (note that the .txt file must also be in your working directory)
+3. Edit the following text between quotes ("") so that it matches the name of the file you want to create a Class with (note that the .txt file must also be in your working directory). I have also included several example datasets in the "example-datasets" folder in this repository you may use for example purposes.
 ```
 String fileName = "Student";
 ```
